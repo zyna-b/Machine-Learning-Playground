@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+venv_py39/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm and VS Code project files
+.idea/
+.vscode/
+
+# Logs and local data
+*.log
+*.csv
+*.tsv
+*.xlsx
+.DS_Store
+Thumbs.db
+
+# Python coverage and test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Matplotlib cache
+.mplconfig/
+
+# OS specific
+Icon?
