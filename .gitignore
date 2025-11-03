@@ -9,8 +9,8 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
-develop-eggs/
 dist/
+develop-eggs/
 downloads/
 eggs/
 .eggs/
@@ -42,6 +42,7 @@ htmlcov/
 .coverage.*
 .cache
 pytest_cache/
+.pytest_cache/
 cover/
 *.cover
 *.py,cover
@@ -51,15 +52,15 @@ cover/
 *.mo
 *.pot
 
-# Django stuff:
+# Django stuff
 *.log
 local_settings.py
 
-# Flask stuff:
+# Flask stuff
 instance/
 .webassets-cache
 
-# Scrapy stuff:
+# Scrapy stuff
 .scrapy
 
 # Sphinx documentation
@@ -74,13 +75,14 @@ target/
 # IPython/Jupyter
 .ipynb_checkpoints/
 .jupyter/
+*.nbconvert.ipynb
 
 # Virtual environments
 .venv/
 venv/
+venv_py39/
 ENV/
 env/
-venv_py39/
 *.env
 
 # IDEs and editors
@@ -98,11 +100,13 @@ venv_py39/
 # Windows
 Thumbs.db
 Desktop.ini
+Icon?
 
 # Data and artifacts
 *.csv
 *.tsv
 *.xls*
+*.xlsx
 *.parquet
 *.joblib
 *.pkl
@@ -112,40 +116,12 @@ Desktop.ini
 *.pdf
 *.svg
 
+# Matplotlib cache
+.mplconfig/
+
 # Temporary files
 *.tmp
 *.temp
 ~$*
-
-# Python bytecode
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environments
-.venv/
-venv/
-venv_py39/
-env/
-ENV/
-
-# Package metadata
-*.egg-info/
-*.eggs/
-dist/
-build/
-
-# Jupyter artifacts
-.ipynb_checkpoints/
-*.nbconvert.ipynb
-
-# Editors and IDEs
-.vscode/
-.idea/
-
-# Logs and temp files
-*.log
-*.tmp
 *.swp
-.DS_Store
-Thumbs.db
+
