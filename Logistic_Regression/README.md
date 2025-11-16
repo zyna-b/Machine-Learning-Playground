@@ -23,3 +23,18 @@ This folder explores gradient-driven binary classification with logistic regress
 - Extend the perceptron notebook to multi-class or one-vs-rest configurations.
 
 Future additions will cover softmax regression, multi-class extensions, and probability calibration techniques to round out the classification toolkit.
+
+## Requirements
+- Python 3.9+
+- Packages: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
+
+## How to Run
+```powershell
+pip install numpy pandas matplotlib seaborn scikit-learn
+jupyter notebook Gradient_Descent_Logistic_Regression.ipynb
+jupyter notebook Logistic-Regression-Perceptron-trick-sigmoid.ipynb
+```
+Work through each notebook sequentially to compare logistic regression with perceptron-style classifiers and track convergence behaviour.
+
+## SEO Keywords
+`logistic regression from scratch`, `gradient descent logistic regression`, `perceptron vs logistic regression`, `binary classification notebook`, `scikit-learn logistic regression example`

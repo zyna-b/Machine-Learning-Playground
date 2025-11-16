@@ -22,3 +22,17 @@ This folder contains a gradient descent walkthrough for simple linear regression
 - Extend the notebook to support batch, mini-batch, or stochastic gradient descent variants.
 
 Additional linear regression variations—regularization, multi-feature support, and polynomial regression—will be added here in future updates.
+
+## Requirements
+- Python 3.9+
+- Packages: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
+
+## How to Run
+```powershell
+pip install numpy pandas matplotlib seaborn scikit-learn
+jupyter notebook Gradient-descent-step-by-step.ipynb
+```
+Execute each cell sequentially to compare manual gradient updates with the closed-form OLS solution.
+
+## SEO Keywords
+`linear regression from scratch`, `gradient descent notebook`, `ols vs gradient descent`, `machine learning regression tutorial`, `scikit-learn linear regression example`
