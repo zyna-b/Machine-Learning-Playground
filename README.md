@@ -26,6 +26,7 @@ Machine Learning Playground curates algorithm-focused notebooks that demystify f
 - `K-Nearest Neighbours/` – Tune KNN on the Titanic dataset and inspect feature importance.
 - `Linear_Regression/` – Walk through gradient descent updates for simple linear regression.
 - `Logistic_Regression/` – Contrast logistic regression with perceptron-style classifiers.
+- `Random Forest/` – Train tree-based ensembles on a heart-disease dataset and interpret feature importance.
 
 ## Quickstart
 ```powershell
@@ -49,6 +50,7 @@ Open the desired `.ipynb` file from Jupyter Lab or Notebook and execute cells se
 - Explore non-parametric methods via `K-Nearest Neighbours/KNN_on_Titanic_Dataset (1).ipynb`.
 - Interpret tree-based models in `Decision Trees/Decision_Tree_visualization_using_dtreeviz.ipynb`.
 - Ensemble your knowledge with bagging and voting notebooks under `Ensemble Learning/`.
+- Deploy robust tree ensembles via `Random Forest/Random_Forest_on_Heart_disease.ipynb` and its from-scratch companion notebook.
 - Round out probabilistic modelling inside `Guassian Naive Bayes/Naive_Bayes_Algorithm.ipynb`.
 
 ## Contributing
@@ -61,4 +63,4 @@ Open the desired `.ipynb` file from Jupyter Lab or Notebook and execute cells se
 This project is released under the [MIT License](LICENSE).
 
 ## SEO Keywords
-`machine learning tutorials`, `jupyter notebook machine learning`, `python gradient descent example`, `logistic regression from scratch`, `k nearest neighbors titanic`, `decision tree visualization dtreeviz`, `ensemble learning bagging voting`, `gaussian naive bayes tutorial`, `scikit-learn beginner projects`, `machine learning portfolio notebooks`
+`machine learning tutorials`, `jupyter notebook machine learning`, `python gradient descent example`, `logistic regression from scratch`, `k nearest neighbors titanic`, `decision tree visualization dtreeviz`, `ensemble learning bagging voting`, `gaussian naive bayes tutorial`, `random forest heart disease`, `scikit-learn beginner projects`, `machine learning portfolio notebooks`
