@@ -6,6 +6,7 @@
 [![Pandas](https://img.shields.io/badge/pandas-2.x-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-11557c?logo=matplotlib&logoColor=white)](https://matplotlib.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.x-FF6F00?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/stable/)
+[![SVM](https://img.shields.io/badge/SVM-Support%20Vector%20Machine-blueviolet?logo=python&logoColor=white)](#support-vector-machine-svm)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > Hands-on machine learning tutorials written as self-paced Jupyter notebooks with reproducible Python code, visual diagnostics, and step-by-step math intuition.
@@ -27,6 +28,7 @@ Machine Learning Playground curates algorithm-focused notebooks that demystify f
 - `Linear_Regression/` – Walk through gradient descent updates for simple linear regression.
 - `Logistic_Regression/` – Contrast logistic regression with perceptron-style classifiers.
 - `Random Forest/` – Train tree-based ensembles on a heart-disease dataset and interpret feature importance.
+- `Support Vector Machine (SVM)/` – Visualise hyperplanes, margins, and kernel tricks for robust classification.
 
 ## Quickstart
 ```powershell
@@ -51,6 +53,7 @@ Open the desired `.ipynb` file from Jupyter Lab or Notebook and execute cells se
 - Interpret tree-based models in `Decision Trees/Decision_Tree_visualization_using_dtreeviz.ipynb`.
 - Ensemble your knowledge with bagging and voting notebooks under `Ensemble Learning/`.
 - Deploy robust tree ensembles via `Random Forest/Random_Forest_on_Heart_disease.ipynb` and its from-scratch companion notebook.
+- Understand maximum-margin classifiers with `Support Vector Machine (SVM)/Support_Vector_Machines_(SVM).ipynb` and explore kernel tricks.
 - Round out probabilistic modelling inside `Guassian Naive Bayes/Naive_Bayes_Algorithm.ipynb`.
 
 ## Contributing
@@ -63,4 +66,4 @@ Open the desired `.ipynb` file from Jupyter Lab or Notebook and execute cells se
 This project is released under the [MIT License](LICENSE).
 
 ## SEO Keywords
-`machine learning tutorials`, `jupyter notebook machine learning`, `python gradient descent example`, `logistic regression from scratch`, `k nearest neighbors titanic`, `decision tree visualization dtreeviz`, `ensemble learning bagging voting`, `gaussian naive bayes tutorial`, `random forest heart disease`, `scikit-learn beginner projects`, `machine learning portfolio notebooks`
+`machine learning tutorials`, `jupyter notebook machine learning`, `python gradient descent example`, `logistic regression from scratch`, `k nearest neighbors titanic`, `decision tree visualization dtreeviz`, `ensemble learning bagging voting`, `gaussian naive bayes tutorial`, `random forest heart disease`, `support vector machine python`, `svm kernel trick tutorial`, `hyperplane classification scikit-learn`, `rbf kernel visualization`, `scikit-learn beginner projects`, `machine learning portfolio notebooks`
