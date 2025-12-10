@@ -11,6 +11,7 @@ Build robust heart-disease classifiers with Random Forests. These notebooks walk
 ## Notebooks
 - `Random_Forest_on_Heart_disease.ipynb` – performs exploratory data analysis on the UCI-inspired heart dataset, engineers clinical features, and benchmarks Random Forest against baseline classifiers.
 - `Random_Forest_Implementation.ipynb` – implements the algorithm step-by-step, surfaces feature importances, and validates performance with cross-validation.
+ - `Calculating_Feature_Importance.ipynb` – demonstrates `DecisionTreeClassifier` and `RandomForestClassifier` feature importances on a small synthetic dataset; shows per-estimator importances and how the ensemble averages them.
 
 ## Highlights
 - Handle medical-style tabular data: impute missing values, scale numeric signals, and encode categorical risk factors.
@@ -26,6 +27,7 @@ Build robust heart-disease classifiers with Random Forests. These notebooks walk
 pip install numpy pandas matplotlib seaborn scikit-learn
 jupyter notebook Random_Forest_on_Heart_disease.ipynb
 jupyter notebook Random_Forest_Implementation.ipynb
+jupyter notebook Calculating_Feature_Importance.ipynb
 ```
 Execute cells sequentially. When experimenting with hyperparameters such as `n_estimators`, `max_depth`, or `max_features`, re-run the evaluation sections to track gains.
 
